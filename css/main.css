@@ -330,6 +330,7 @@ header {
   }
   .collection {
     background-image: url("../imgs/collection-bg-mobile.png");
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.00) 0%, #FEFCF7 100%);
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
