@@ -613,7 +613,7 @@ header {
     align-items: center;
     justify-content: center;
   }
-  .footer__links{
+  .footer__links {
     display: flex;
     flex-direction: column;
     row-gap: 32px;
@@ -700,13 +700,14 @@ header {
     background-position: top;
     background-repeat: no-repeat;
     padding-bottom: 120px;
+    margin-bottom: 120px;
   }
   .collection__cards {
     padding-top: 13px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
+    margin-bottom: 120px;
   }
   .collection__cards-card {
     display: flex;
@@ -758,6 +759,7 @@ header {
     display: flex;
     flex-direction: column;
     row-gap: 24px;
+    padding-right: 0;
   }
   .features__cards-card {
     width: 279px;
@@ -784,5 +786,110 @@ header {
   }
   .features__cards-card__text-subtitle {
     text-align: center;
+  }
+  .details {
+    padding-top: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .details__cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .details__header-img {
+    visibility: hidden;
+  }
+  .details__header-title {
+    color: #83888f;
+    text-align: center;
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    max-width: 327px;
+    width: 100%;
+    padding-left: 50px;
+  }
+  .details__cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 56px;
+  }
+  .details__cards-card {
+    width: 327px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .details__cards-card__number {
+    color: #fdd6ba;
+    text-align: center;
+    font-family: "Fraunces 9pt";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+    margin-bottom: 24px;
+  }
+  .details__cards-card__title {
+    color: #333d4b;
+    text-align: center;
+    font-family: "Fraunces 9pt";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    width: 327px;
+    margin-bottom: 24px;
+  }
+  .details__cards-card__subtitle {
+    color: #333d4b;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 327px;
+  }
+  .footer {
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+  }
+  .footer__links-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    align-items: center;
+  }
+  .footer__links-menu__link {
+    color: #83888f;
+    font-family: "Barlow";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+  }
+  .footer__links-img {
+    width: 217.846px;
+    height: 24px;
   }
 }
