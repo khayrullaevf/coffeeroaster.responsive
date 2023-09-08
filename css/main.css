@@ -800,10 +800,17 @@ header {
     display: flex;
     flex-direction: column;
   }
-  .details__header-img {
-    visibility: hidden;
+  .details__header{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    height: 32px;
+    width: 327px;
   }
-  .details__header-title {
+  .details__header-img {
+    display: none;
+   }
+  .details__header-title{
     color: #83888f;
     text-align: center;
     font-family: "Fraunces 9pt";
@@ -813,12 +820,12 @@ header {
     line-height: 32px;
     max-width: 327px;
     width: 100%;
-    padding-left: 50px;
   }
-  .details__cards {
+  .details__cards{
     display: flex;
     flex-direction: column;
     row-gap: 56px;
+
   }
   .details__cards-card {
     width: 327px;
@@ -827,7 +834,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 56px;
+    margin-top: 56px;
   }
   .details__cards-card__number {
     color: #fdd6ba;
@@ -859,6 +866,20 @@ header {
     font-weight: 400;
     line-height: 25px;
     max-width: 327px;
+  }
+  .details-btn {
+    margin-top: 79px;
+    width: 217px;
+    height: 56px;
+    border-radius: 6px;
+    background: #0e8784;
+    color: #fefcf7;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    border: 2px solid transparent;
   }
   .footer {
     height: 346px;
