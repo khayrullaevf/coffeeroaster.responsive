@@ -15,7 +15,9 @@ body {
   margin: 0 auto;
   padding: 0px 15px;
 }
-
+header {
+  padding-bottom: 136px;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -125,6 +127,56 @@ body {
   background-color: #fff;
 }
 
+.collection {
+  padding-top: 126px;
+  background-image: url("../imgs/icons/collection-bg.svg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 525px;
+}
+.collection__cards {
+  display: flex;
+  padding-left: 86px;
+  padding-right: 86px;
+  column-gap: 30px;
+  padding-bottom: 200px;
+}
+.collection__cards-card {
+  display: flex;
+  flex-direction: column;
+}
+.collection__cards-card__img {
+  width: 255px;
+  height: 193px;
+}
+.collection__cards-card__text {
+  max-width: 255px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.collection__cards-card__title {
+  color: #333d4b;
+  text-align: center;
+  font-family: "Fraunces 9pt";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  margin-bottom: 24px;
+  margin-top: 71.55px;
+}
+.collection__cards-card__subtitle {
+  color: #333d4b;
+  font-family: " Barlow";
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 255px;
+}
 @media (max-width: 768px) {
   .hero {
     padding-left: 58px;
@@ -154,6 +206,52 @@ body {
     color: #0e8784;
     border: 2px solid #0e8784;
     background-color: #fff;
+  }
+  .collection {
+    background-image: url("../imgs/collection-bg-tablet.png");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 59px;
+    padding-bottom: 129px;
+  }
+  .collection__cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+  .collection__cards-card {
+    display: flex;
+    flex-direction: row;
+    width: 573px;
+    height: 193px;
+    column-gap: 36px;
+  }
+  .collection__cards-card__text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 282px;
+  }
+  .collection__cards-card__title {
+    color: #333d4b;
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    margin-bottom: 24px;
+    text-align: start;
+  }
+  .collection__cards-card__subtitle {
+    color: #333d4b;
+    font-family: "Barlow";
+    text-align: start;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 100%;
   }
 }
 
@@ -226,5 +324,59 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  head {
+    padding-bottom: 120px;
+  }
+  .collection {
+    background-image: url("../imgs/collection-bg-mobile.svg");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+  }
+  .collection__cards{
+    padding-top: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .collection__cards-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 282px;
+    height: 273px;
+    margin-top: 58px;
+  }
+  .collection__cards-card__img{
+    width: 200px;
+    height: 151px;
+  }
+  .collection__cards-card__text{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .collection__cards-card__title{
+    color: #333d4b;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 24px;
+  }
+  .collection__cards-card__subtitle{
+    font-family: "Barlow";
+    text-align: center;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 282px;
+    margin-bottom: 16px;
+    height: 50px;
   }
 }
