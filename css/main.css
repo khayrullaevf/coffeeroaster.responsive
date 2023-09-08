@@ -329,7 +329,7 @@ header {
     padding-bottom: 120px;
   }
   .collection {
-    background-image: url("../imgs/collection-bg-mobile.svg");
+    background-image: url("../imgs/collection-bg-mobile.png");
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
