@@ -6,6 +6,13 @@
     <title>Cofferoaster</title>
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Header -->
@@ -179,10 +186,84 @@
       </div>
     </div>
     <!-- Features end -->
-      <!-- Details -->
-        <div class="container">
-           <div class="details"></div>
+    <!-- Details -->
+    <div class="container">
+      <div class="details">
+        <div class="details__header">
+          <h2 class="details__header-title">How it works</h2>
+          <img
+            src="./imgs/details-row.svg"
+            alt="details-row"
+            class="details__header-img"
+          />
         </div>
-      <!-- Details end -->
+        <div class="details__cards">
+          <div class="details__cards-card">
+            <span class="details__cards-card__number">01</span>
+            <h2 class="details__cards-card__title">Pick your coffee</h2>
+            <h3 class="details__cards-card__subtitle">
+              Select from our evolving range of artisan coffees. Our beans are
+              ethically sourced and we pay fair prices for them. There are new
+              coffees in all profiles every month for you to try out.
+            </h3>
+          </div>
+          <div class="details__cards-card">
+            <span class="details__cards-card__number">02</span>
+            <h2 class="details__cards-card__title">Choose the frequency</h2>
+            <h3 class="details__cards-card__subtitle">
+              Customize your order frequency, quantity, even your roast style
+              and grind type. Pause, skip or cancel your subscription with no
+              commitment through our online portal.
+            </h3>
+          </div>
+          <div class="details__cards-card">
+            <span class="details__cards-card__number">03</span>
+            <h2 class="details__cards-card__title">Receive and enjoy!</h2>
+            <h3 class="details__cards-card__subtitle">
+              We ship your package within 48 hours, freshly roasted. Sit back
+              and enjoy award-winning world-class coffees curated to provide a
+              distinct tasting experience.
+            </h3>
+          </div>
+        </div>
+        <button class="details-btn">Create your plan</button>
+      </div>
+    </div>
+    <!-- Details end -->
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer__links">
+            <a href="index.html" class="footer__links-img"
+              ><img
+                src="./imgs/footer-logo.svg"
+                alt="footer__logo"
+                class="footer__logo"
+            /></a>
+            <ul class="footer__links-menu">
+              <li class="footer__links-menu__item">
+                <a href="index.html" class="footer__links-menu__link">HOME</a>
+              </li>
+              <li class="footer__links-menu__item">
+                <a href="#" class="footer__links-menu__link">ABOUT US</a>
+              </li>
+              <li class="footer__links-menu__item">
+                <a href="#" class="footer__links-menu__link"
+                  >Create your plan</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__socials">
+            <a href="#" class="footer__socials-link"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" class="footer__socials-link"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="footer__socials-link"><i class="fa-brands fa-instagram"></i></a>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
   </body>
 </html>
