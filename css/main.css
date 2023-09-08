@@ -339,7 +339,8 @@ header {
     padding-top: 13px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    padding: 0;
   }
   .collection__cards-card{
     display: flex;
