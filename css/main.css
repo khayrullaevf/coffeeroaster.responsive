@@ -5,6 +5,23 @@
   list-style: none;
 }
 
+@font-face {
+  font-family: 'Barlow';
+  src: url('../fonts/Barlow/Barlow-Bold.ttf');
+}
+@font-face {
+  font-family: 'Barlow-4';
+  src: url('../fonts/Barlow/Barlow-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt';
+  src: url('../fonts/Fraunces/static/Fraunces_9pt-Bold.ttf');
+}
+
+
+
+
 html,
 body {
   overflow-x: hidden;
@@ -96,7 +113,7 @@ header {
 }
 .hero__content-text {
   color: #fefcf7;
-  font-family: "Barlow";
+  font-family: "Barlow-4";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -169,7 +186,7 @@ header {
 }
 .collection__cards-card__subtitle {
   color: #333d4b;
-  font-family: " Barlow";
+  font-family: " Barlow-4";
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -208,7 +225,7 @@ header {
 .features__text-subtitle {
   color: #fefcf7;
   text-align: center;
-  font-family: "Barlow";
+  font-family: "Barlow-4";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -255,7 +272,7 @@ header {
 .features__cards-card__text-subtitle {
   color: #fefcf7;
   text-align: center;
-  font-family: "Barlow";
+  font-family: "Barlow-4";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -326,7 +343,7 @@ header {
 }
 .details__cards-card__subtitle {
   color: #333d4b;
-  font-family: "Barlow";
+  font-family: "Barlow-4";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -471,7 +488,7 @@ header {
   }
   .collection__cards-card__subtitle {
     color: #333d4b;
-    font-family: "Barlow";
+    font-family: "Barlow-4";
     text-align: start;
     font-size: 15px;
     font-style: normal;
@@ -735,7 +752,7 @@ header {
     margin-top: 24px;
   }
   .collection__cards-card__subtitle {
-    font-family: "Barlow";
+    font-family: "Barlow-4";
     text-align: center;
 
     font-size: 15px;
@@ -800,7 +817,7 @@ header {
     display: flex;
     flex-direction: column;
   }
-  .details__header{
+  .details__header {
     display: flex;
     align-items: center;
     margin-top: 120px;
@@ -809,23 +826,23 @@ header {
   }
   .details__header-img {
     display: none;
-   }
-  .details__header-title{
+  }
+  .details__header-title {
     color: #83888f;
     text-align: center;
-    font-family: "Fraunces 9pt";
+    font-family: Fraunces 9pt;
     font-size: 24px;
     font-style: normal;
     font-weight: 900;
     line-height: 32px;
     max-width: 327px;
     width: 100%;
+    margin-bottom: 0;
   }
-  .details__cards{
+  .details__cards {
     display: flex;
     flex-direction: column;
     row-gap: 56px;
-
   }
   .details__cards-card {
     width: 327px;
@@ -860,7 +877,7 @@ header {
   .details__cards-card__subtitle {
     color: #333d4b;
     text-align: center;
-    font-family: "Barlow";
+    font-family: "Barlow-4";
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
