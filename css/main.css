@@ -311,8 +311,9 @@ header {
 
 .details__cards {
   display: flex;
-  column-gap: 95px;
   margin-bottom: 64px;
+  width: 100%;
+  justify-content: space-between;
 }
 .details__cards-card__number {
   color: #fdd6ba;
@@ -842,6 +843,7 @@ header {
   .details__cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
     row-gap: 56px;
   }
   .details__cards-card {
